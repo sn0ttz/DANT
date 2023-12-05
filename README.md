@@ -1,6 +1,6 @@
 # [D.A.N.T]
 
-[Site desenvolvido para um projeto da PUC Minas, o site é um fórum de jogos no qual usuários podem pesquisar e comentar nos jogos presentes no nosso banco de dados]
+[Site desenvolvido para a matéria Trabalho Interdisciplinar 2 - Back-End na PUC Minas, o site é um fórum de jogos no qual usuários podem pesquisar e comentar nos jogos presentes no nosso banco de dados]
 
 ## Alunos integrantes da equipe
 
