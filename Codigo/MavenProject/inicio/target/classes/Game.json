@@ -1,0 +1,410 @@
+{
+    "2397370": {
+        "success": true,
+        "data": {
+            "type": "game",
+            "name": "Missile Collector Man",
+            "steam_appid": 2397370,
+            "required_age": 0,
+            "is_free": false,
+            "controller_support": "full",
+            "detailed_description": "Blow things up until you manage to get out of the place.<br><br>Some rooms contain missiles. When collected you can blow things up, or you can leave them be and not blow things up. There is no time when you shouldn't be blowing things up.<br><br>Current Minigames:<br>Collect missisles<br>Claw machine<br>Missile collection<br>Pong<br>Shooting range<br>Acquiring missiles<br><i>Maths<\/i><br><i>Blow ball into hole<\/i><br><i>Wandering aimlessly<\/i><br>Simon Says<br>Hopscotch<br>Gathering high explosive projectile munitions<br>*Italicized minigames may or may not be considered minigames<br><br>Occasionally parts of the ship will break. Unfortunately, these can't be repaired by blowing them up, but you can still shoot them, or blow them up anyway.",
+            "about_the_game": "Blow things up until you manage to get out of the place.<br><br>Some rooms contain missiles. When collected you can blow things up, or you can leave them be and not blow things up. There is no time when you shouldn't be blowing things up.<br><br>Current Minigames:<br>Collect missisles<br>Claw machine<br>Missile collection<br>Pong<br>Shooting range<br>Acquiring missiles<br><i>Maths<\/i><br><i>Blow ball into hole<\/i><br><i>Wandering aimlessly<\/i><br>Simon Says<br>Hopscotch<br>Gathering high explosive projectile munitions<br>*Italicized minigames may or may not be considered minigames<br><br>Occasionally parts of the ship will break. Unfortunately, these can't be repaired by blowing them up, but you can still shoot them, or blow them up anyway.",
+            "short_description": "Play game. Solve puzzle. Collect missile.",
+            "supported_languages": "Inglês<strong>*<\/strong><br><strong>*<\/strong>idiomas com suporte total de áudio",
+            "header_image": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/2397370\/header.jpg?t=1689091740",
+            "capsule_image": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/2397370\/capsule_231x87.jpg?t=1689091740",
+            "capsule_imagev5": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/2397370\/capsule_184x69.jpg?t=1689091740",
+            "website": null,
+            "pc_requirements": {
+                "minimum": "<strong>Mínimos:<\/strong><br><ul class=\"bb_ul\"><li><strong>SO:<\/strong> 10+<br><\/li><li><strong>Processador:<\/strong> Intel Core i7 6700k @ 4Ghz<br><\/li><li><strong>Memória:<\/strong> 8 GB de RAM<br><\/li><li><strong>Placa de vídeo:<\/strong> AMD Radeon HD 7900<br><\/li><li><strong>DirectX:<\/strong> Versão 11<br><\/li><li><strong>Armazenamento:<\/strong> 5 GB de espaço disponível<br><\/li><li><strong>Placa de som:<\/strong> Sound: 100% DirectX 12.0c compliant card<\/li><\/ul>"
+            },
+            "mac_requirements": [],
+            "linux_requirements": [],
+            "developers": [
+                "kezbobicus"
+            ],
+            "publishers": [
+                "kezbobicus"
+            ],
+            "demos": [
+                {
+                    "appid": 2397390,
+                    "description": ""
+                }
+            ],
+            "price_overview": {
+                "currency": "BRL",
+                "initial": 3299,
+                "final": 3299,
+                "discount_percent": 0,
+                "initial_formatted": "",
+                "final_formatted": "R$ 32,99"
+            },
+            "packages": [
+                862514
+            ],
+            "package_groups": [
+                {
+                    "name": "default",
+                    "title": "Comprar Missile Collector Man",
+                    "description": "",
+                    "selection_text": "Selecione uma opção de compra",
+                    "save_text": "",
+                    "display_type": 0,
+                    "is_recurring_subscription": "false",
+                    "subs": [
+                        {
+                            "packageid": 862514,
+                            "percent_savings_text": " ",
+                            "percent_savings": 0,
+                            "option_text": "Missile Collector Man - R$ 32,99",
+                            "option_description": "",
+                            "can_get_free_license": "0",
+                            "is_free_license": false,
+                            "price_in_cents_with_discount": 3299
+                        }
+                    ]
+                }
+            ],
+            "platforms": {
+                "windows": true,
+                "mac": false,
+                "linux": false
+            },
+            "categories": [
+                {
+                    "id": 2,
+                    "description": "Um jogador"
+                },
+                {
+                    "id": 28,
+                    "description": "Compat. total com controle"
+                }
+            ],
+            "genres": [
+                {
+                    "id": "4",
+                    
+                    "description": "Casual"
+                },
+                {
+                    "id": "23",
+                    "description": "Indie"
+                },
+                {
+                    "id": "70",
+                    "description": "Acesso Antecipado"
+                }
+            ],
+            "screenshots": [
+                {
+                    "id": 0,
+                    "path_thumbnail": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/2397370\/ss_d2bffcd7f82dbb3a25c13f35c17300be20d59464.600x338.jpg?t=1689091740",
+                    "path_full": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/2397370\/ss_d2bffcd7f82dbb3a25c13f35c17300be20d59464.1920x1080.jpg?t=1689091740"
+                },
+                {
+                    "id": 1,
+                    "path_thumbnail": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/2397370\/ss_6e15a9ac37b9ed3b2e8040385c19566c09cbcd50.600x338.jpg?t=1689091740",
+                    "path_full": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/2397370\/ss_6e15a9ac37b9ed3b2e8040385c19566c09cbcd50.1920x1080.jpg?t=1689091740"
+                },
+                {
+                    "id": 2,
+                    "path_thumbnail": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/2397370\/ss_6bc16eec8beda70a031bd6b7ab6d677004da54e2.600x338.jpg?t=1689091740",
+                    "path_full": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/2397370\/ss_6bc16eec8beda70a031bd6b7ab6d677004da54e2.1920x1080.jpg?t=1689091740"
+                },
+                {
+                    "id": 3,
+                    "path_thumbnail": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/2397370\/ss_f4ebaba8b3d16d52c17d327b354af37ea126ad18.600x338.jpg?t=1689091740",
+                    "path_full": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/2397370\/ss_f4ebaba8b3d16d52c17d327b354af37ea126ad18.1920x1080.jpg?t=1689091740"
+                },
+                {
+                    "id": 4,
+                    "path_thumbnail": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/2397370\/ss_63b43e998b72a7269870b9701ae6c4336e11b3d5.600x338.jpg?t=1689091740",
+                    "path_full": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/2397370\/ss_63b43e998b72a7269870b9701ae6c4336e11b3d5.1920x1080.jpg?t=1689091740"
+                }
+            ],
+            "movies": [
+                {
+                    "id": 256941239,
+                    "name": "MissileCollectorMan",
+                    "thumbnail": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/256941239\/movie.293x165.jpg?t=1682350248",
+                    "webm": {
+                        "480": "http:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/256941239\/movie480_vp9.webm?t=1682350248",
+                        "max": "http:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/256941239\/movie_max_vp9.webm?t=1682350248"
+                    },
+                    "mp4": {
+                        "480": "http:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/256941239\/movie480.mp4?t=1682350248",
+                        "max": "http:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/256941239\/movie_max.mp4?t=1682350248"
+                    },
+                    "highlight": true
+                }
+            ],
+            "release_date": {
+                "coming_soon": false,
+                "date": "15\/mai.\/2023"
+            },
+            "support_info": {
+                "url": "",
+                "email": "thisisseriousbusiness@pm.me"
+            },
+            "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/2397370\/page_bg_generated_v6b.jpg?t=1689091740",
+            "background_raw": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/2397370\/page.bg.jpg?t=1689091740",
+            "content_descriptors": {
+                "ids": [],
+                "notes": null
+            }
+        }
+    }
+}
+
+
+{
+    "10": {
+        "success": true,
+        "data": {
+            "type": "game",
+            "name": "Counter-Strike",
+            "steam_appid": 10,
+            "required_age": 0,
+            "is_free": false,
+            "   ": "Jogue o jogo de ação número 1 no mundo. Junte-se a uma guerra incrivelmente realística contra o terrorismo neste jogo baseado em equipes. Alie-se com os seus colegas e complete missões estratégicas. Acabe com os inimigos. Resgate reféns. A forma como você joga afeta o sucesso da sua equipe. O sucesso da sua equipe afeta você.",
+            "about_the_game": "Jogue o jogo de ação número 1 no mundo. Junte-se a uma guerra incrivelmente realística contra o terrorismo neste jogo baseado em equipes. Alie-se com os seus colegas e complete missões estratégicas. Acabe com os inimigos. Resgate reféns. A forma como você joga afeta o sucesso da sua equipe. O sucesso da sua equipe afeta você.",
+            "short_description": "Jogue o jogo de ação número 1 no mundo. Junte-se a uma guerra incrivelmente realística contra o terrorismo neste jogo baseado em equipes. Alie-se com os seus colegas e complete missões estratégicas. Acabe com os inimigos. Resgate reféns. A forma como você joga afeta o sucesso da sua equipe. O sucesso da sua equipe afeta você.",
+            "supported_languages": "Inglês<strong>*<\/strong>, Francês<strong>*<\/strong>, Alemão<strong>*<\/strong>, Italiano<strong>*<\/strong>, Espanhol (Espanha)<strong>*<\/strong>, Chinês simplificado<strong>*<\/strong>, Chinês tradicional<strong>*<\/strong>, Coreano<strong>*<\/strong><br><strong>*<\/strong>idiomas com suporte total de áudio",
+            "header_image": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/10\/header.jpg?t=1666823513",
+            "capsule_image": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/10\/capsule_231x87.jpg?t=1666823513",
+            "capsule_imagev5": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/10\/capsule_184x69.jpg?t=1666823513",
+            "website": null,
+            "pc_requirements": {
+                "minimum": "<p><strong>Mínimo:<\/strong> processador de 500 MHz, 96 MB de RAM, placa de vídeo com 16 MB, Windows XP, mouse, teclado, conexão à internet<br \/><\/p>\r\n<p><strong>Recomendado:<\/strong> processador de 800 MHz, 128 MB de RAM, placa de vídeo com 32 MB ou mais, Windows XP, mouse, teclado, conexão à internet<br \/><\/p>"
+            },
+            "mac_requirements": {
+                "minimum": "Minimum: OS X  Snow Leopard 10.6.3, 1GB RAM, 4GB Hard Drive Space,NVIDIA GeForce 8 or higher, ATI X1600 or higher, or Intel HD 3000 or higher Mouse, Keyboard, Internet Connection"
+            },
+            "linux_requirements": {
+                "minimum": "Minimum: Linux Ubuntu 12.04, Dual-core from Intel or AMD at 2.8 GHz, 1GB Memory, nVidia GeForce 8600\/9600GT, ATI\/AMD Radeaon HD2600\/3600 (Graphic Drivers: nVidia 310, AMD 12.11), OpenGL 2.1, 4GB Hard Drive Space, OpenAL Compatible Sound Card"
+            },
+            "developers": [
+                "Valve"
+            ],
+            "publishers": [
+                "Valve"
+            ],
+            "price_overview": {
+                "currency": "BRL",
+                "initial": 2069,
+                "final": 2069,
+                "discount_percent": 0,
+                "initial_formatted": "",
+                "final_formatted": "R$ 20,69"
+            },
+            "packages": [
+                574941,
+                7
+            ],
+            "package_groups": [
+                {
+                    "name": "default",
+                    "title": "Comprar Counter-Strike",
+                    "description": "",
+                    "selection_text": "Selecione uma opção de compra",
+                    "save_text": "",
+                    "display_type": 0,
+                    "is_recurring_subscription": "false",
+                    "subs": [
+                        {
+                            "packageid": 7,
+                            "percent_savings_text": " ",
+                            "percent_savings": 0,
+                            "option_text": "Counter-Strike: Condition Zero - R$ 20,69",
+                            "option_description": "",
+                            "can_get_free_license": "0",
+                            "is_free_license": false,
+                            "price_in_cents_with_discount": 2069
+                        },
+                        {
+                            "packageid": 574941,
+                            "percent_savings_text": " ",
+                            "percent_savings": 0,
+                            "option_text": "Counter-Strike - Commercial License - R$ 20,69",
+                            "option_description": "",
+                            "can_get_free_license": "0",
+                            "is_free_license": false,
+                            "price_in_cents_with_discount": 2069
+                        }
+                    ]
+                }
+            ],
+            "platforms": {
+                "windows": true,
+                "mac": true,
+                "linux": true
+            },
+            "metacritic": {
+                "score": 88,
+                "url": "https:\/\/www.metacritic.com\/game\/pc\/counter-strike?ftag=MCD-06-10aaa1f"
+            },
+            "categories": [
+                {
+                    "id": 1,
+                    "description": "Multijogador"
+                },
+                {
+                    "id": 49,
+                    "description": "JxJ"
+                },
+                {
+                    "id": 36,
+                    "description": "JxJ on-line"
+                },
+                {
+                    "id": 37,
+                    "description": "JxJ tela dividida\/compart."
+                },
+                {
+                    "id": 8,
+                    "description": "Usa Valve Antitrapaça"
+                }
+            ],
+            "genres": [
+                {
+                    "id": "1",
+                    "description": "Ação"
+                }
+            ],
+            "screenshots": [
+                {
+                    "id": 0,
+                    "path_thumbnail": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/10\/0000000132.600x338.jpg?t=1666823513",
+                    "path_full": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/10\/0000000132.1920x1080.jpg?t=1666823513"
+                },
+                {
+                    "id": 1,
+                    "path_thumbnail": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/10\/0000000133.600x338.jpg?t=1666823513",
+                    "path_full": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/10\/0000000133.1920x1080.jpg?t=1666823513"
+                },
+                {
+                    "id": 2,
+                    "path_thumbnail": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/10\/0000000134.600x338.jpg?t=1666823513",
+                    "path_full": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/10\/0000000134.1920x1080.jpg?t=1666823513"
+                },
+                {
+                    "id": 3,
+                    "path_thumbnail": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/10\/0000000135.600x338.jpg?t=1666823513",
+                    "path_full": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/10\/0000000135.1920x1080.jpg?t=1666823513"
+                },
+                {
+                    "id": 4,
+                    "path_thumbnail": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/10\/0000000136.600x338.jpg?t=1666823513",
+                    "path_full": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/10\/0000000136.1920x1080.jpg?t=1666823513"
+                },
+                {
+                    "id": 5,
+                    "path_thumbnail": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/10\/0000002540.600x338.jpg?t=1666823513",
+                    "path_full": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/10\/0000002540.1920x1080.jpg?t=1666823513"
+                },
+                {
+                    "id": 6,
+                    "path_thumbnail": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/10\/0000002539.600x338.jpg?t=1666823513",
+                    "path_full": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/10\/0000002539.1920x1080.jpg?t=1666823513"
+                },
+                {
+                    "id": 7,
+                    "path_thumbnail": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/10\/0000002538.600x338.jpg?t=1666823513",
+                    "path_full": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/10\/0000002538.1920x1080.jpg?t=1666823513"
+                },
+                {
+                    "id": 8,
+                    "path_thumbnail": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/10\/0000002537.600x338.jpg?t=1666823513",
+                    "path_full": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/10\/0000002537.1920x1080.jpg?t=1666823513"
+                },
+                {
+                    "id": 9,
+                    "path_thumbnail": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/10\/0000002536.600x338.jpg?t=1666823513",
+                    "path_full": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/10\/0000002536.1920x1080.jpg?t=1666823513"
+                },
+                {
+                    "id": 10,
+                    "path_thumbnail": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/10\/0000002541.600x338.jpg?t=1666823513",
+                    "path_full": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/10\/0000002541.1920x1080.jpg?t=1666823513"
+                },
+                {
+                    "id": 11,
+                    "path_thumbnail": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/10\/0000002542.600x338.jpg?t=1666823513",
+                    "path_full": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/10\/0000002542.1920x1080.jpg?t=1666823513"
+                },
+                {
+                    "id": 12,
+                    "path_thumbnail": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/10\/0000002543.600x338.jpg?t=1666823513",
+                    "path_full": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/10\/0000002543.1920x1080.jpg?t=1666823513"
+                }
+            ],
+            "recommendations": {
+                "total": 138960
+            },
+            "release_date": {
+                "coming_soon": false,
+                "date": "1\/nov.\/2000"
+            },
+            "support_info": {
+                "url": "http:\/\/steamcommunity.com\/app\/10",
+                "email": ""
+            },
+            "background": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/10\/page_bg_generated_v6b.jpg?t=1666823513",
+            "background_raw": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/10\/page_bg_generated.jpg?t=1666823513",
+            "content_descriptors": {
+                "ids": [
+                    2,
+                    5
+                ],
+                "notes": "Includes intense violence and blood."
+            }
+        }
+    }
+} 
+{
+    "941": {
+        "success": true,
+        "data": {
+            "type": "movie",
+            "name": "Red Orchestra Fall Update Trailer",
+            "steam_appid": 941,
+            "required_age": 0,
+            "is_free": false,
+            "detailed_description": "",
+            "about_the_game": "",
+            "short_description": "",
+            "header_image": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/941\/header.jpg?t=1447350936",
+            "capsule_image": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/941\/capsule_231x87.jpg?t=1447350936",
+            "capsule_imagev5": "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/941\/capsule_184x69.jpg?t=1447350936",
+            "website": null,
+            "pc_requirements": [],
+            "mac_requirements": [],
+            "linux_requirements": [],
+            "publishers": [
+                ""
+            ],
+            "package_groups": [],
+            "platforms": {
+                "windows": true,
+                "mac": false,
+                "linux": false
+            },
+            "release_date": {
+                "coming_soon": false,
+                "date": ""
+            },
+            "support_info": {
+                "url": "",
+                "email": ""
+            },
+            "background": "",
+            "background_raw": "",
+            "content_descriptors": {
+                "ids": [],
+                "notes": null
+            }
+        }
+    }
+}

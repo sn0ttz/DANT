@@ -1,0 +1,240 @@
+:root {
+    --color1: rgb(20, 20, 20);
+    --color2: white;
+    --color3: rgb(128, 128, 128);
+}
+
+/* Section */
+
+.container-dados {
+    margin: 100px 20px 100px 20px;
+    height: 400px;
+}
+
+.container-dados {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+/* Esq */
+
+.tudo-esq {
+    background-color: var(--color3);
+    border-radius: 10px;
+}
+
+.esq {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+    margin: 10px;
+}
+
+.esq h3 {
+    margin-bottom: 2px;
+}
+
+.esq input {
+    width: 400px;
+    height: 40px;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+/* Dir */
+
+.dir {
+    background-color: var(--color3);
+    width: 500px;
+    height: 500px;
+}
+
+.dir label{
+    display: flex;
+    justify-content: center;
+}
+
+.texto {
+    background-color: var(--color1);
+    color: var(--color2);
+    cursor: pointer;
+    width: 80%;
+    margin: 10px auto;
+    padding: 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+
+.preview ol li img {
+    width: 100%;
+    height: 400px;
+}
+
+.preview ol li p {
+    text-align: center;
+    background-color: var(--color1);
+    color: var(--color2);
+    width: 70%;
+    margin: auto;
+}
+
+/* Deletar */
+
+.texto:hover {
+    transform: scale(1.05);   
+}
+
+.container-deletar {
+    margin-top: 20px;
+    justify-content: center;
+    margin-bottom: 25px;
+    display: flex;
+    gap: 20px;
+}
+
+.container-deletar .deletar {
+    background-color: var(--color2);
+    padding: 10px;
+    border-radius: 10px;
+    color: red;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.container-deletar .deletar:hover {
+    transform: scale(1.05);
+}
+
+.container-deletar .salvar {
+    background-color: var(--color2);
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    color: green;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.container-deletar .salvar:hover {
+    transform: scale(1.05);
+}
+
+.premium {
+    background-color: var(--color2);
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: var(--amarelo);
+    cursor: pointer;
+    transition: .3s;
+    margin-bottom: 10px;
+}
+
+.premium:hover {
+    transform: scale(1.05);
+}
+
+/* Sim ou nao */
+
+.certeza{
+    display: none;
+    background-color: var(--color2);
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+    position: absolute;
+    margin: 300px auto;
+    padding: 20px;
+}
+
+.opcoes{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.sim, .nao{
+    padding: 10px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.nao{
+    color: var(--vermelho-escuro);
+}
+
+.sim{
+    color: green;
+}
+
+.sim:hover, .nao:hover{
+    transform: scale(1.05);
+}
+
+.desejo_salvar{
+    display: none;
+    background-color: var(--color2);
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+    position: absolute;
+    margin: 300px auto;
+    padding: 20px;
+}
+
+.quero, .nao_quero{
+    padding: 10px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.nao_quero{
+    color: var(--vermelho-escuro);
+}
+
+.quero{
+    color: green;
+}
+
+.quero:hover, .nao_quero:hover{
+    transform: scale(1.05);
+}
+
+.assinar_premium{
+    display: none;
+    background-color: var(--color2);
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+    position: absolute;
+    margin: 300px auto;
+    padding: 20px;
+}
+
+.desejo, .nao_desejo{
+    padding: 10px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.nao_desejo{
+    color: var(--vermelho-escuro);
+}
+
+.desejo{
+    color: green;
+}
+
+.desejo:hover, .nao_desejo:hover{
+    transform: scale(1.05);
+}
+
+@media (max-width: 900px){
+    .tudo-esq{
+        margin-bottom: 20px;
+    }
+}

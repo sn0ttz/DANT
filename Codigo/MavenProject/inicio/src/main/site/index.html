@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e65e29a543.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/java.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
+    <link rel="icon" href="content/dant3.png">
+    <title>D.A.N.T</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-bloco" id="container-bloco">
+            <div class="container-esq">
+                <div class="Login">
+                    <h1>REALIZE O LOGIN</h1>
+                </div>
+                <div class="formulario">
+                    <form>
+                        <input type="email" id = "email" placeholder="Email" required>
+                        <br>
+                        <input type="password" id = "senha" placeholder="Senha" required>
+                        <br>
+                        <div class="button">
+                            <h3 onclick="Confirmar ()">ENTRAR</h3>
+                        </div>
+                    </form>
+                </div>
+                <div class="new-usuario">
+                    <h5>NOVO USUARIO? <span id="cadastrar" onclick="Mudar ()">CADASTRAR</span> </h5>
+                </div>
+            </div>
+            <div class="container-dir">
+                <img src="content/dant3.png" width="100%" height="100%">
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container-registrar" id = "container-registrar">
+            <div class="imagem">
+                <img src="content/dant3.png" width="90%" height="100%">
+            </div>
+            <div class="dados">
+                <form>
+                    <div class="primeiros">
+                        <input type="text" id ="nome" placeholder="Nome Completo" required>
+                        <br>
+                        <input type="date" id ="date" placeholder="Data de Nascimento" required>
+                        <br>
+                        <input type="email" id = "email2" placeholder="Email" required>
+                        <br>
+                        <input type="password" id ="senha2" placeholder="Senha">
+                        <br>
+                        <input type="password" id = "confirmasenha" placeholder="Confirmar Senha">
+                    </div>
+                    <div class="termos">
+                        <span><a href="bobo.html"> TERMOS DE USO </a></span>
+                        <input type="checkbox" id = "termodeuso" required>
+                    </div>
+                    <div class="submit">
+                        <input type="submit" onclick="Cadastrar ()" value="CADASTRAR">
+                    </div>
+                    <H5 id="voltar" onclick="Voltar ()">VOLTAR</H5>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+</body>
+
+</html>

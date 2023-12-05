@@ -1,0 +1,227 @@
+/* DIV Nav */
+
+/* Section */
+
+/* Carrosel topo */
+
+.container-carrosel{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-carrosel .imagem-esq{
+    width: 50%;
+    height: 50vh;
+    transition: .3s;
+    border-radius: 10px;
+}
+
+.container-carrosel .imagem-esq:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 0px 10px var(--vermelho-intenso);
+}
+
+.card{
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.card:hover{
+    transform: scale(0.95);
+    box-shadow: 0px 0px 5px var(--vermelho-intenso);
+}
+
+.container-carrosel .imagem-dir{ 
+    margin-top: 5px;
+}
+
+/* Kind of games */
+
+.container-classificacao{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.container-classificacao .bloco{
+    background-color: var(--cinza-claro);
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    transition: .3s;
+}
+
+.container-classificacao .bloco h1 a{
+    text-decoration: none;
+    color: var(--preto-profundo);
+}
+
+.container-classificacao .bloco:hover{
+    transform: scale(1.05);
+    background-color: var(--color2);
+}
+
+/* Carrosel meio */
+
+.container-overflow{
+    margin: 50px 10px;
+}
+
+.container-overflow .carrosel{
+    margin-top: 100px;
+}
+
+.container-jogos .seta-esq, .seta-dir{
+    cursor: pointer;
+    color: var(--cinza-claro);
+    transition: .3s;
+}
+
+.container-jogos .seta-esq:hover, .seta-dir:hover{
+    transform: scale(1.1);
+}
+
+.container-overflow .carrosel .text{
+    margin-bottom:35px;
+    background-color: var(--cinza-claro);
+    color: var(--preto-profundo);
+    padding: 5px;
+    border: 1px solid black;
+    width: 30%;
+}
+
+.container-overflow .carrosel .container-jogos{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.container-overflow .carrosel .container-jogos .jogos{
+    display: flex;
+    gap: 20px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}
+
+.container-overflow .carrosel .container-jogos .jogos .content{
+    transition: .3s;
+    background-color: var(--cinza-claro);
+    
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.container-overflow .carrosel .container-jogos .jogos .content:hover{
+    transform: scale(0.95);
+    box-shadow: 0px 0px 10px var(--vermelho-intenso);
+}
+
+.container-overflow .carrosel .container-jogos .jogos .content .game a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Botões por ai da página */
+
+.button{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.button h1{
+    background-color: var(--color2);
+    border-radius: 5px;
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+    transition: .3s;
+}
+
+.button h1:hover{
+    transform: scale(1.05);
+    border-radius: 5px;
+}
+
+.button h1 a{
+    text-decoration: none;
+    color: black;
+}
+
+
+@media (max-width: 800px){
+    .container-carrosel .imagem-dir{ 
+        margin-top: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .container-carrosel .imagem-esq{
+        width: 100%;
+    }
+
+    .hamburguer{
+        display: block;
+    }
+
+    .esquerda .links{
+        display: none;
+    }
+
+    .container-navegar{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 0px;
+    }
+
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    footer .descricao{
+        width: 100%;
+        text-align: center;
+    }
+
+    .container-overflow .carrosel .text{
+        width: 80%;
+    }
+
+    .button h1{
+        width: 80%;
+    }
+
+}
+
+@media (max-width: 650px) {
+
+    .container-jogos .seta-esq, .seta-dir{
+        display: none;
+    }
+
+    .container-overflow .carrosel .container-jogos .jogos{
+        display: flex;
+        gap: 20px;
+        overflow-x: scroll;
+        overflow-y: auto;
+        scroll-behavior: smooth;
+    }
+
+}

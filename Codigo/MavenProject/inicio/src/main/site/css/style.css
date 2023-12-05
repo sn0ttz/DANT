@@ -1,0 +1,289 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+    --color1: rgb(20, 20, 20);
+    --color2: white;
+    --color3: rgb(128, 128, 128);
+
+    --vermelho-escuro: #FF0000;
+    --vermelho-profundo: #CC0000;
+    --vermelho-intenso: #DD3333;
+  
+    --preto: #000000;
+    --preto-profundo: #111111;
+    --preto-rico: #333333;
+  
+    --cinza-escuro: #333333;
+    --cinza-grafite: #555555;
+    --cinza-carvão: #222222;
+    --cinza-claro: #CCCCCC;
+  
+    --azul-escuro: #0000FF;
+    --azul-profundo: #000099;
+    --azul-oceano: #003366;
+  
+    --amarelo: #FFFF00;
+}
+
+body{
+    background-color: var(--cinza-carvão);
+}
+
+/* root */
+
+
+/* Login page */
+
+.container-bloco{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Parte esquerda */
+
+.container-esq{
+    padding: 40px;
+    background-color: var(--color2);
+    height: 300px;
+    border-start-start-radius: 10px;
+    border-end-start-radius: 10px;
+}
+
+.Login h1{
+    font-size: 40px;
+    text-align: center;
+    border-bottom: solid black 2px;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    margin: 25px 0px;
+}
+
+.formulario form{
+    margin: auto;
+}
+
+.formulario form input{
+    margin: 10px auto;
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    border-bottom: solid black 2px;
+    transition: .3s;
+    color: black;
+}
+
+.formulario form input:hover{
+    transform: scale(1.05);
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.submit input{
+    width: 150px;
+    cursor: pointer;
+    background-color: var(--cinza-escuro);
+    color: var(--color2);
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: small;
+    font-weight: bold;
+    transition: .3s;
+    border: none;
+    transition: .3s;
+}
+
+.submit input:hover{
+    transform: scale(1.05);
+}
+
+.button{
+    display: flex;
+    justify-content: center;   
+}
+
+.button h3{
+    width: 150px;
+    cursor: pointer;
+    background-color: var(--cinza-escuro);
+    color: var(--color2);
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: small;
+    transition: .3s;
+}
+
+.button h3:hover{
+    transform: scale(1.05);
+}
+
+.new-usuario{
+    text-align: center;
+    font-size: small;
+}
+
+span{
+    text-decoration: underline rgb(3, 3, 110);
+    color: rgb(3, 3, 110);
+    cursor: pointer;
+}
+
+/* Parte da direita */
+
+.container-dir{
+    background-color: var(--cinza-claro);
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0% 5% 5% 0%;
+}
+
+.container-dir img{
+    border-radius: 0% 5% 5% 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Registrar */
+
+.container-registrar{
+    display: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Esquerda imagem */
+
+.imagem{
+    display: flex;
+    justify-content: center;
+    width: 51%;
+}
+
+.imagem img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color2);
+}
+
+/* Direita dados */
+
+.dados{
+    padding: 40px;
+    background-color: var(--color2);
+    border-radius: 5%;
+}
+
+.dados .primeiros input{
+    margin: 10px auto;
+    width: 300px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    border-bottom: 2px solid black;
+    transition: .3s;
+}
+
+.dados .primeiros input:hover{
+    transform: scale(1.05);
+}
+
+.enviar{
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.enviar input{
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.enviar input:hover{
+    transform: scale(1.05);
+}
+
+.termos{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.termos span{
+    margin-right: 10px;
+}
+
+.dados form h5{
+    font-size: small;
+    text-align: center;
+    text-decoration: underline rgb(3, 3, 110);
+    color: rgb(3, 3, 110);
+    cursor: pointer;
+}
+
+.dados .button{
+    margin-bottom: 10px;
+}
+
+
+/* Media Querry */
+
+@media (max-width: 850px) {
+    .container-bloco{
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+        transition: .3s;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .container-esq{
+        padding: 40px;
+        height: 300px;
+        border-radius: 10px;
+        width: 80%;
+    }
+
+    .container-dir{
+        width: 100%;
+        height: 380px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
