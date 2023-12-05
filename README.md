@@ -1,6 +1,6 @@
 # [D.A.N.T]
 
-[Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.]
+[Site desenvolvido para um projeto da PUC Minas, o site é um fórum de jogos no qual usuários podem pesquisar e comentar nos jogos presentes no nosso banco de dados]
 
 ## Alunos integrantes da equipe
 
